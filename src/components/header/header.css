@@ -1,0 +1,48 @@
+.header{
+    height: 66px;
+    background-color: #000;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.content{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* tittle */
+.tittle{
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    color: #FFF;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.tittle-api{
+    font-size: 16px;
+    position: absolute;
+    right: -26px;
+}
+
+/* button */
+.car-shope{
+    width: 32px;
+}
+.shop{
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    background-color: #212121;
+    border-radius: 8px;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+}
